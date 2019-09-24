@@ -18,7 +18,7 @@ def main():
 
     # Output
     print("")
-    print("Then the volume of the icosahedron is {}cm^2" .format(volume))
+    print("Then the volume of the icosahedron is {}cm^3" .format(volume))
 
 
 if __name__ == "__main__":
