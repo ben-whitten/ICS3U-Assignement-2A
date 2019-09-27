@@ -9,14 +9,15 @@ import math
 
 
 def main():
+#This is what finds the volume of the icosahedron
 
-    # Input
+# Input
     length = int(input("input the edge length of the icosahedron:"))
 
-    # Process
+# Process
     volume = 5*(3+math.sqrt(5))/12*length**3
 
-    # Output
+# Output
     print("")
     print("Then the volume of the icosahedron is {}cm^3" .format(volume))
 
